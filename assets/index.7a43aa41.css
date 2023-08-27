@@ -1171,7 +1171,7 @@ background-position: 50% 50%;
     position: absolute;
     width: 46px;
     height: 100%;
-    background: #FF7700
+    background: #ff770000
 }
 
 @media (min-width: 768px) {
