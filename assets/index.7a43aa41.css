@@ -1148,6 +1148,7 @@ p {
     background: url(./../Crush2.jpg);
 background-position: 50% 50%;
     background-size: cover;
+
     background-repeat: no-repeat;
     margin-bottom: 0
 }
