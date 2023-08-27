@@ -28,12 +28,57 @@
   <link rel="stylesheet" href="/assets/index.7a43aa41.css">
   <link rel="manifest" href="/manifest.webmanifest">
 </head>
-
+<style>
+  .logoz {
+    width:400px
+  }
+  .picz {
+    width: auto !important;
+     z-index: -1; 
+     margin-left: 35vw;
+     margin-top: -15vw;
+  }
+  .picz1 {
+    height: 600px;
+     padding-top: 10vh;
+  }
+  .matoke {
+height: 200px;
+  }
+  @media only screen and (max-width: 600px) {
+  .logoz {
+    width:150px
+  }
+  .section__title {
+    font-size: 20px;
+  }
+  .section__text {
+    font-size: 16px;
+  }
+  .crush__text{
+    width: 100vw;
+    margin-top: -10vh;
+    height: 50vh;
+  }
+  .picz {
+    margin-left: 0;
+     margin-top: 0;
+  }
+  .picz1 {
+    height: auto;
+    width: 100vw;
+    
+  }
+  .matoke {
+height: auto;
+  }
+}
+</style>
 <body>
   <div class="wrapper">
     <header class="navbar" id="header">
-      <a class="navbar__logo" href="/">\
-        <img width="400px" src="./tesxt.png" alt="">
+      <a class="navbar__logo" href="/">
+        <img class="logoz" src="./tesxt.png" alt="">
       </a>
 
       <div class="navbar__nav" id="nav">
@@ -204,8 +249,8 @@
         </div>
 
         <div class="grid__item--6of12 shiaverse__col">
-          <div class="shiaverse__image">
-            <img style="width: auto !important; z-index: -1; margin-left: 30vw;margin-top: -15vw;" src="./goggle.png" class="shiaverse__image" alt="$WSHIA coins" />
+          <div class="shiaverse__image picz">
+            <img   src="./goggle.png" class="shiaverse__image" alt="$WSHIA coins" />
  
           </div>
         </div>
@@ -233,7 +278,7 @@
           <section class="section nfts" id="nft">
             <div class="nfts__main">
 
-              <img style="height: 600px; padding-top: 10vh;" src="./MOON SHIA.png" alt="">
+              <img class="picz1" src="./MOON SHIA.png" alt="">
 
               <span class="section__subtitle">WRAPPED SHIBA SAGA NFTS</span>
       
@@ -266,8 +311,8 @@
         <div class="grid__item grid__item--5of12">
           <div class="staking__image" data-aos="fade-up">
 
-            <img src="./5.png" height="100px" class="js-staking-image-2 staking__image--2" alt="Shia coin">
-            <img src="./5.png" height="400px" class="js-staking-image-3 staking__image--3" alt="Shia loading">
+            <img src="./5.png"  class="matoke js-staking-image-2 staking__image--2" alt="Shia coin">
+            <img src="./5.png" class="matoke js-staking-image-3 staking__image--3" alt="Shia loading">
           </div>
         </div>
       </div>
